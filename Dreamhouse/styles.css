@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,400&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Sacramento&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat+Alternates:ital,wght@0,400;0,700;0,800;1,300;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,400&family=Sacramento&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+
+:root{
+  --blue: #301934;
+  --dark-blue: #00008B;
+  --black: #130f40;
+  --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+*{
+  font-family: 'Montserrat', 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+  transition: 0.7s;
+  
+}
+
+body{
+  background: #fafafa;
+  text-decoration: none;
+  width: 100%;
+}
+
+/******************************navigation******************************************/
+
+.header{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 80%;
+}
+.navigation{
+ font-size: 15px;
+ font-family: 'Merriweather', serif;
+ color: var(--black);
+}
+
+.header .navigation a{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 15px;
+  color: var(--black);
+}
+.header .navigation a:hover{
+  color: blue;
+  font-size: 16px;
+}
+.fas{
+  color: var(--dark-blue);
+}
+.logo{
+  font-size: 20px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 600;
+  color: var(--black);
+}
+.line{
+  background: var(--black);
+  height: 1px;
+  box-shadow: var(--box-shadow);
+  opacity: 0.2;
+}
+
+.button1{
+  background: var(--dark-blue);
+  padding: 9px;
+  color: white;
+  border-radius: 5px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+.button1:hover{
+  background: blue;
+  transition: 0.3s;
+}
+
+/****************nav end************************/
+
+/**********************************Section start*********************/
+
+.section1{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section1 .section-text h2{
+  text-align: left;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 1.45;
+  color: var(--dark-blue);
+  
+}
+
+.section1 .section-text p{
+  color: var(--black);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.35;
+  padding-top: 13px;
+  margin-bottom: 30px;
+  
+}
+
+.button2{
+  background: var(--dark-blue);
+  padding: 9px;
+  color: white;
+  border-radius: 5px;
+  font-size: 11px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button3{
+  background-color: white;
+  border: .5px solid var(--black);
+  padding: 9px;
+  color: var(--dark-blue);
+  border-radius: 5px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin-left: 13px;
+  cursor: pointer;
+}
+
+.section1 .section-text .button2:hover, .button3:hover{
+  box-shadow: var(--box-shadow);
+}
+.section1-img{
+  width: 57%;
+}
+.section1 img{
+  width: 100%;
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+  margin-top: 60px;
+  height: 365px;
+}
+
+.section2{
+  width: 70%;
+  padding: 15px;
+  margin: 60px auto;
+  background: white;
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section2 .range h1{
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.section2 .range p{
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.blue-circle{
+  position: absolute;
+  margin-left: 455px;
+  margin-top: 390px;
+  background: var(--dark-blue);
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  box-shadow: var(--box-shadow);
+}
+.section1:hover .blue-circle{
+  margin-left: 1px;
+}
+
+/**********************************Section3*********************/
+
+.section3-head{
+  text-align: center;
+  margin:60px auto 40px auto;
+}
+.section3-head h2{
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: var(--dark-blue);
+  font-family: 'poppins', sans-serif;
+}
+.section3-head p{
+  font-size: 13px;
+  margin: 7px auto 2px auto;
+  font-family: 'poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1;
+}
+.section3{
+  width: 80%;
+  margin: 3px auto auto auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.section3 .section-house img{
+  width: 85px;
+  margin: 20px auto 16px auto;
+}
+
+.section3 .section-house{
+  background: white;
+  width: 31%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 60px;
+  border-radius: 7px;
+}
+
+.section3 .section-house h2{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px auto;
+  color: var(--black);
+}
+
+.section3 .section-house p{
+  font-family: 'poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+.section-house2{
+  box-shadow: var(--box-shadow);
+}
+
+
+/**********************************Section4*********************/
+.Leasesection{
+  margin: auto;
+  width: 80%;
+  text-align: left;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.Leasesection .leaseshape{
+  background: var(--black);
+  margin-right: 5px;
+}
+
+.Leasesection h2{
+  font-size: 25px;
+  text-align: center;
+  color: var(--dark-blue);
+  font-family: 'poppins', sans-serif;
+}
+
+.lease-nav{
+  position: absolute;
+  margin-left: 1015px;
+  margin-top: 25px;
+  font-size: 18px;
+  color: var(--black);
+
+}
+.lease-nav2{
+  margin-left: 15px;
+}
+
+.section4{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.sectio4-house{
+  width: 23.5%;
+  background: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.sectio4-house:hover{
+  box-shadow: var(--box-shadow);
+}
+
+.sectio4-house img{
+  width: 90%;
+  margin: 15px auto;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+.sectio4-house:hover img{
+  width: 90%;
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.sectio4-house:hover .fas1{
+  color: var(--dark-blue);
+  margin: 5px 215px 3px 0px;
+}
+
+.section4 .sectio4-house h2{
+  font-size: 17px;
+  margin-bottom: 5px;
+  color: var(--dark-blue);
+  font-family: 'poppins', sans-serif;
+}
+
+
+.section4 .sectio4-house p{
+  font-size: 12px;
+  margin: 8px auto 2px auto;
+  font-family: 'poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  opacity: 0.6;
+}
+
+.section4-button{
+  width: 80%;
+  margin: 8px auto;
+  background: var(--dark-blue);
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  font-weight: 500;
+}
+
+.fas1{
+  position: absolute;
+  color: var(--dark-blue);
+  margin: 5px 0px 3px 215px;
+}
