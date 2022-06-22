@@ -189,7 +189,12 @@ body{
 .section1:hover .blue-circle{
   margin-left: 1px;
 }
-
+.blue-circle-icon{
+  color: white;
+  margin-top: 24px;
+  margin-left: 13px;
+  
+}
 /**********************************Section3*********************/
 
 .section3-head{
@@ -240,6 +245,27 @@ body{
   font-weight: bold;
   margin: 5px auto;
   color: var(--black);
+}
+.section3 .section-house h1{
+  font-size: 50px;
+  padding-top: 1px;
+  position: absolute;
+  transform: translateX(200px);
+  z-index: -5;
+  margin-bottom: 245px;
+  opacity: 0;
+  color: var(--dark-blue);
+  transition: .6s;
+}
+.section3:hover .section-house h1{
+  transform: translateX(0px);
+  z-index: 0;
+  opacity: 0.09;
+}
+.section3 .section-house:hover h1{
+  transform: translateX(0px);
+  z-index: 0;
+  opacity: 0.19;
 }
 
 .section3 .section-house p{
@@ -356,4 +382,204 @@ body{
   position: absolute;
   color: var(--dark-blue);
   margin: 5px 0px 3px 215px;
+}
+
+
+/*****************************section5****************************/
+
+.section5{
+  width: 80%;
+  margin: 80px auto 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section5-img{
+  width: 57%;
+}
+.section5-img img{
+  width: 100%;
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+  height: 340px;
+}
+
+.section5-text{
+  width: 38%;
+}
+
+.section5 .section5-text h2{
+  font-size: 27px;
+  margin-bottom: 5px;
+  color: var(--dark-blue);
+  font-family: 'poppins', sans-serif;
+}
+
+.section5 .section5-text p{
+  font-size: 11px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: var(--black);
+  font-family: 'poppins', sans-serif;
+}
+
+.section5-text-child{
+  display: flex;
+  gap: 200px;
+  margin: 15px auto;
+}
+
+.section5 .section5-text .section5-text-child1 p{
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 430;
+  margin-bottom: 10px;
+  color: var(--black);
+  font-family: 'poppins', sans-serif;
+}
+
+.section5-icon{
+  color: var(--dark-blue);
+}
+
+/*****************************section6****************************/
+
+.section6-head{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.section6-head h2{
+  font-size: 25px;
+  margin-bottom: 2px;
+  color: var(--dark-blue);
+  font-family: 'poppins', sans-serif;
+}
+
+.section6-head p{
+  font-size: 13px;
+  margin: 7px auto 2px auto;
+  font-family: 'poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.section6-head1{
+  margin: 40px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.section6-head1-house{
+  width: 30%;
+  background: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.section6-head1 .section6-head1-house img{
+  width: 85%;
+  margin: 15px auto;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+.section6-head1 .section6-head1-house h2{
+  font-size: 17px;
+  margin-bottom: 5px;
+  color: var(--dark-blue);
+  font-family: 'poppins', sans-serif;
+}
+
+.section6-head1 .section6-head1-house p{
+  font-size: 12px;
+  margin: 8px auto 2px auto;
+  font-family: 'poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  opacity: 0.7;
+}
+
+ .section6-head1-house2{
+  box-shadow: var(--box-shadow);
+}
+
+.fasx{
+  color: var(--dark-blue);
+  opacity: 1;
+}
+
+
+
+/*****************************section7*****************/
+.section7-head{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.section7-head h2{
+  font-size: 25px;
+  margin-bottom: 2px;
+  color: var(--dark-blue);
+  font-family: 'poppins', sans-serif;
+}
+
+.section7-head p{
+  font-size: 13px;
+  margin: 7px auto 40px auto;
+  font-family: 'poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.section7{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section7-house{
+  background: white;
+  width: 30%;
+  margin-bottom: 40px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.section7 .section7-house h2{
+  font-size: 15px;
+  color: var(--black);
+  font-family: 'poppins', sans-serif;
+  margin-top: 10px;
+  padding: 0 20px;
+  margin-bottom: 3px;
+}
+
+.section7 .section7-house h4{
+  font-size: 11px;
+  color: var(--dark-blue);
+  font-family: 'poppins', sans-serif;
+  padding: 0 20px;
+  margin-bottom: 3px;
+}
+
+.section7 .section7-house p{
+  font-size: 11px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: var(--black);
+  font-family: 'poppins', sans-serif;
+  padding: 0 20px;
+}
+
+.section7-house2{
+  box-shadow: var(--box-shadow);
 }
