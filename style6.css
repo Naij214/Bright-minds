@@ -1,0 +1,12 @@
+.flex-container{
+          display: flex;
+          background-color: blue;
+          color: white;
+          flex-wrap: wrap;
+          width: 100%;
+}
+.flex{
+          width: 20%;
+          padding: 10px;
+          
+}
